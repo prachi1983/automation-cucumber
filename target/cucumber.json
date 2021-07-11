@@ -1,0 +1,179 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1853000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Application url for testing",
+            "match": {
+              "location": "com.selenium.stepdef.CalculatorTest.application_url_for_testing()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-11T04:36:18.605Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9933000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.selenium.stepdef.CalculatorTest.preCondition()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Test Scenario to verify Addition functionality using given calculator application page",
+        "description": "",
+        "id": "calculator-module;test-scenario-to-verify-addition-functionality-using-given-calculator-application-page",
+        "after": [
+          {
+            "result": {
+              "duration": 4047000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.selenium.stepdef.CalculatorTest.postCondition()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 948000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should enter two enter and perform Addition operation",
+            "match": {
+              "location": "com.selenium.stepdef.CalculatorTest.user_should_enter_two_enter_and_perform_addition_operation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2071000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Result should get display and verify output value for Addition.",
+            "match": {
+              "location": "com.selenium.stepdef.CalculatorTest.result_should_get_display_and_verify_output_value_for_addition()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Addition"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2847000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Application url for testing",
+            "match": {
+              "location": "com.selenium.stepdef.CalculatorTest.application_url_for_testing()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-11T04:36:37.754Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6317000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.selenium.stepdef.CalculatorTest.preCondition()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Test Scenario to verify Multiplication functionality using given calculator application page",
+        "description": "",
+        "id": "calculator-module;test-scenario-to-verify-multiplication-functionality-using-given-calculator-application-page",
+        "after": [
+          {
+            "result": {
+              "duration": 8129000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.selenium.stepdef.CalculatorTest.postCondition()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2095000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User should enter two enter and perform Multiplication operation",
+            "match": {
+              "location": "com.selenium.stepdef.CalculatorTest.user_should_enter_two_enter_and_perform_multiplication_operation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2075000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Result should get display and verify output value for Multiplication.",
+            "match": {
+              "location": "com.selenium.stepdef.CalculatorTest.result_should_get_display_and_verify_output_value_for_multiplication()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Multiplication"
+          }
+        ]
+      }
+    ],
+    "name": "Calculator Module",
+    "description": "",
+    "id": "calculator-module",
+    "keyword": "Feature",
+    "uri": "file:Features/BasicCalculator.feature",
+    "tags": []
+  }
+]
